@@ -1,0 +1,47 @@
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f9f9f9; /* Background color for the entire tabs container */
+  padding: 1rem 0;
+  border-radius: 0;
+  font-size: 1.5rem;
+}
+
+.tabs ul {
+  list-style: none;
+  display: flex;
+  width: 80%; /* Full width */
+  margin: 0;
+  padding: 0;
+}
+
+.tabs li {
+  flex: 1; /* Each tab takes up equal space */
+  text-align: center;
+}
+
+.tabs a {
+  display: block;
+  width: 100%;
+  padding: 1rem 0;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 0 !important; /* Force border-radius to 0 */
+  background-color: #f9f9f9; /* Background color when not active or hovered */
+  outline: none; /* Remove focus outline (blue border on click) */
+}
+
+.tabs a:hover {
+  background-color: #a5a5a5; /* Lighter grey when hovering */
+  color: #fff;
+}
+
+.tabs .active a,
+.tabs a:focus {
+  background-color: #3190d5 !important;
+  color: #fff !important;
+  border-radius: 0 !important; /* Force no rounding for active and focus states */
+}
+

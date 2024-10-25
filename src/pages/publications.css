@@ -1,0 +1,42 @@
+.publications {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: justify; /* Justifies the text */
+  }
+  
+  .publications h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #3190d5;
+  }
+  
+  .publications h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #3190d5;
+  }
+  
+  .publications ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  
+  .publications li {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .publications p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: justify; /* Justifies the text */
+  }
+
+  .highlight {
+    font-weight: bold;
+    color: #3190d5; /* Highlight your name in blue and bold */
+  }
+  
