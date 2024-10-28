@@ -51,7 +51,7 @@ body {
 }
 
 .tabs .active a {
-  background-color: #3190d5;
+  background-color: #1c5b88;
   color: #fff;
 }
 .tabs a:hover {
@@ -64,7 +64,7 @@ body {
   padding: 2rem; /* Adds padding inside content area */
   background-color: #fff; /* Optional: different color for content */
   border-radius: 8px; /* Optional: adds rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  Optional: subtle shadow */
 }
 
 .side-image {

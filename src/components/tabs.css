@@ -40,7 +40,7 @@
 
 .tabs .active a,
 .tabs a:focus {
-  background-color: #3190d5 !important;
+  background-color: #1c5b88 !important;
   color: #fff !important;
   border-radius: 0 !important; /* Force no rounding for active and focus states */
 }
