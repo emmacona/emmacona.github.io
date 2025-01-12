@@ -10,8 +10,7 @@ function About() {
          < p>
           Hi, I'm <span className="highlight">Emmanuelle Coutu-Nadeau</span>, a <span className="highlight">psychology master's student </span> 
           specializing in the clinical applications of <span className="highlight">Artificial Intelligence </span> 
-          to predict neural responses of teenagers and young adults when watching various types of videos. My specific interest is 
-          in understanding screen habits within this population.
+          to identify neurological markers of autism in EEG recordings.
           I have a background in <span className="highlight">software engineering</span> and experience in <span className="highlight">digital health</span> as a 
           Software Developer and Project Manager at <span className="highlight">CareSimple</span>.
         </p>
