@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 12vh; /* Further reduced for less padding */
+  height: 20vh; /* Further reduced for less padding */
   background-image: url('/public/ai-brain.png'); /* Fixed path - public folder file */
   background-size: cover; /* Ensures the image covers the header */
   background-position: center; /* Centers the image in the header */
