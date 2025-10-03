@@ -1,36 +1,38 @@
 .tabs {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #f9f9f9; /* Background color for the entire tabs container */
-  padding: 0.5rem 0;
+  padding: 1rem;
   border-radius: 0;
   font-size: 1.5rem;
+  gap: 1rem; /* Add space between buttons */
 }
 
 .tabs ul {
   list-style: none;
   display: flex;
-  width: 80%; /* Full width */
+  width: auto; /* Let it size naturally */
   margin: 0;
   padding: 0;
+  gap: 1rem; /* Add space between list items */
 }
 
 .tabs li {
-  flex: 1; /* Each tab takes up equal space */
+  flex: none; /* Don't stretch to fill space */
   text-align: center;
 }
 
 .tabs a {
   display: block;
-  width: 100%;
-  padding: 0.5rem 0;
+  padding: 0.8rem 1.5rem; /* Increased padding for better button appearance */
   text-decoration: none;
   font-weight: bold;
   color: #333;
   transition: background-color 0.3s, color 0.3s;
-  border-radius: 0 !important; /* Force border-radius to 0 */
+  border-radius: 8px; /* Rounded edges */
   background-color: #f9f9f9; /* Background color when not active or hovered */
   outline: none; /* Remove focus outline (blue border on click) */
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 .tabs a:hover {
@@ -42,6 +44,6 @@
 .tabs a:focus {
   background-color: #1c5b88 !important;
   color: #fff !important;
-  border-radius: 0 !important; /* Force no rounding for active and focus states */
+  border-radius: 8px !important; /* Keep rounded edges for active state */
 }
 
