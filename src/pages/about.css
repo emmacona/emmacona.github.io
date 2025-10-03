@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 1rem;
     gap: 5rem; /* Space between image and text */
     max-width: 80%;
     margin: 0 auto;
@@ -34,5 +34,27 @@
   .highlight {
     font-weight: bold;
     color: #3190d5; /* Blue color for emphasis */
+  }
+
+  .social-links {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .linkedin-link {
+    display: inline-block;
+    background-color: #0077b5; /* LinkedIn blue */
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size: 1.1rem;
+  }
+
+  .linkedin-link:hover {
+    background-color: #005885; /* Darker blue on hover */
+    color: white;
   }
   

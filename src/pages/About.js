@@ -7,7 +7,7 @@ function About() {
         <img src="/profile.png" alt="Emmanuelle" className="profile-image" />
         <div className="description">
           <h1>About Me</h1>
-         < p>
+        <p>
           Hi, I'm <span className="highlight">Emmanuelle Coutu-Nadeau</span>, a <span className="highlight">psychology master's student </span> 
           specializing in the clinical applications of <span className="highlight">Artificial Intelligence </span> 
           to identify neurological biomarkers of autism in EEG recordings.
@@ -17,9 +17,14 @@ function About() {
         <p>
           My journey combines <span className="highlight">technology</span>, <span className="highlight">healthcare</span>, 
           and <span className="highlight">neuropsychology</span> to make meaningful discoveries and advancements in the field. 
-          I’m excited about the intersections of <span className="highlight">Artificial Intelligence</span> and <span className="highlight">mental health</span>, and aim to 
+          I'm excited about the intersections of <span className="highlight">Artificial Intelligence</span> and <span className="highlight">mental health</span>, and aim to 
           contribute to innovative solutions that benefit both research and clinical practices.
         </p>
+        <div className="social-links">
+          <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer" className="linkedin-link">
+            Connect with me on LinkedIn
+          </a>
+        </div>
         </div>
       </div>
     );

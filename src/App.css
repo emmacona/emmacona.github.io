@@ -60,8 +60,8 @@ body {
 
 .content {
   width: 80%; /* Takes up 80% of the page width */
-  margin: 2rem auto; /* Centers and adds vertical spacing */
-  padding: 2rem; /* Adds padding inside content area */
+  margin: 1rem auto; /* Centers and adds vertical spacing */
+  padding: 1rem; /* Adds padding inside content area */
   background-color: #fff; /* Optional: different color for content */
   border-radius: 8px; /* Optional: adds rounded corners */
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  Optional: subtle shadow */
