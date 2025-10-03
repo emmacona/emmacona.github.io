@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 20vh; /* Reduced from 30vh to 15vh */
-  background-image: url('ai-brain.png'); /* Fixed path - public folder file */
+  background-image: url('/public/ai-brain.png'); /* Fixed path - public folder file */
   background-size: cover; /* Ensures the image covers the header */
   background-position: center; /* Centers the image in the header */
   background-repeat: no-repeat;
