@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   background-color: #f9f9f9; /* Background color for the entire tabs container */
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   border-radius: 0;
   font-size: 1.5rem;
 }
@@ -23,7 +23,7 @@
 .tabs a {
   display: block;
   width: 100%;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   text-decoration: none;
   font-weight: bold;
   color: #333;

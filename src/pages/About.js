@@ -4,13 +4,13 @@ import './about.css';
 function About() {
     return (
       <div className="about">
-        <img src="/profile.jpg" alt="Emmanuelle" className="profile-image" />
+        <img src="/profile.png" alt="Emmanuelle" className="profile-image" />
         <div className="description">
           <h1>About Me</h1>
          < p>
           Hi, I'm <span className="highlight">Emmanuelle Coutu-Nadeau</span>, a <span className="highlight">psychology master's student </span> 
           specializing in the clinical applications of <span className="highlight">Artificial Intelligence </span> 
-          to identify neurological markers of autism in EEG recordings.
+          to identify neurological biomarkers of autism in EEG recordings.
           I have a background in <span className="highlight">software engineering</span> and experience in <span className="highlight">digital health</span> as a 
           Software Developer and Project Manager at <span className="highlight">CareSimple</span>.
         </p>
