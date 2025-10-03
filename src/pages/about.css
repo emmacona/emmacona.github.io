@@ -9,8 +9,8 @@
   }
   
   .profile-image {
-    width: 300px; /* Adjust size as needed */
-    height: 300px;
+    width: 400px; /* Adjust size as needed */
+    height: 400px;
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Keeps the aspect ratio */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for style */
@@ -33,7 +33,7 @@
 
   .highlight {
     font-weight: bold;
-    color: #3190d5; /* Blue color for emphasis */
+    color: #0c89e2; /* Blue color for emphasis */
   }
 
   .social-links {
@@ -43,7 +43,7 @@
 
   .linkedin-link {
     display: inline-block;
-    background-color: #0077b5; /* LinkedIn blue */
+    background-color: #0c89e2; /* LinkedIn blue */
     color: white;
     text-decoration: none;
     padding: 0.8rem 1.5rem;
@@ -54,7 +54,7 @@
   }
 
   .linkedin-link:hover {
-    background-color: #005885; /* Darker blue on hover */
+    background-color: #0a65a5; /* Darker blue on hover */
     color: white;
   }
   
