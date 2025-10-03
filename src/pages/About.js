@@ -21,7 +21,7 @@ function About() {
           contribute to innovative solutions that benefit both research and clinical practices.
         </p>
         <div className="social-links">
-          <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer" className="linkedin-link">
+          <a href="https://www.linkedin.com/in/emmanuelle-coutu-nadeau/" target="_blank" rel="noopener noreferrer" className="linkedin-link">
             Connect with me on LinkedIn
           </a>
         </div>
