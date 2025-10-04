@@ -47,3 +47,20 @@
   border-radius: 8px !important; /* Keep rounded edges for active state */
 }
 
+/* Mobile responsive tabs */
+@media (max-width: 768px) {
+  .tabs {
+    padding: 0.25rem;
+    gap: 0.5rem;
+  }
+  
+  .tabs ul {
+    gap: 0.5rem;
+  }
+  
+  .tabs a {
+    padding: 0.6rem 1rem;
+    font-size: 1.2rem;
+  }
+}
+
