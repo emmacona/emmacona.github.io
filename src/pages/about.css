@@ -16,9 +16,10 @@
   @media (max-width: 768px) {
     .about {
       flex-direction: column;
-      gap: 2rem;
-      padding: 1.5rem;
-      max-width: 95%;
+      gap: 3rem;
+      padding: 2rem;
+      max-width: 90%; /* Reduced width for mobile */
+      margin: 1rem auto;
     }
   }
   
@@ -33,8 +34,8 @@
   /* Mobile responsive for profile image */
   @media (max-width: 768px) {
     .profile-image {
-      width: 250px;
-      height: 250px;
+      width: 200px;
+      height: 200px;
     }
   }
   
@@ -55,9 +56,44 @@
 
   /* Mobile responsive for text */
   @media (max-width: 768px) {
+    .description {
+      max-width: 100%;
+      padding: 0 1rem;
+    }
+    
+    .description p {
+      font-size: 1.2rem;
+      text-align: left;
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+    }
+    
+    .description h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  /* Extra small mobile screens */
+  @media (max-width: 480px) {
+    .about {
+      padding: 1rem;
+      gap: 2rem;
+      margin: 0.5rem auto;
+    }
+    
+    .profile-image {
+      width: 150px;
+      height: 150px;
+    }
+    
     .description p {
       font-size: 1.1rem;
-      text-align: left;
+      line-height: 1.7;
+    }
+    
+    .description h1 {
+      font-size: 1.8rem;
     }
   }
 

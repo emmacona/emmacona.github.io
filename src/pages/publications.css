@@ -39,4 +39,30 @@
     font-weight: bold;
     color: #3190d5; /* Highlight your name in blue and bold */
   }
+
+  /* Mobile responsive publications */
+  @media (max-width: 768px) {
+    .publications {
+      max-width: 95%;
+      padding: 1rem;
+    }
+    
+    .publications h1 {
+      font-size: 1.5rem;
+    }
+    
+    .publications h2 {
+      font-size: 1.2rem;
+    }
+    
+    .publications li {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+    
+    .publications p {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+  }
   

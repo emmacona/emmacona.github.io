@@ -1,0 +1,25 @@
+.cv-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.cv-iframe {
+  width: 90%;
+  height: 1000px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Mobile responsive CV */
+@media (max-width: 768px) {
+  .cv-container {
+    padding: 1rem;
+  }
+  
+  .cv-iframe {
+    width: 95%;
+    height: 800px;
+  }
+}

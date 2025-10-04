@@ -1,14 +1,13 @@
 import React from 'react';
+import './cv.css';
 
 function CV() {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', padding: '2rem' }}>
+    <div className="cv-container">
       <iframe 
-        src="/CV.pdf#zoom=120" 
-        width="90%" 
-        height="1000px" 
+        src="/CV.pdf#zoom=80" 
+        className="cv-iframe"
         title="CV"
-        style={{ border: 'none', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', borderRadius: '8px' }}
       >
       </iframe>
     </div>
