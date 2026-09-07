@@ -35,6 +35,11 @@
     text-align: justify; /* Justifies the text */
   }
 
+  .publications a {
+    color: #1c5b88;
+    word-break: break-word;
+  }
+
   .highlight {
     font-weight: bold;
     color: #3190d5; /* Highlight your name in blue and bold */
